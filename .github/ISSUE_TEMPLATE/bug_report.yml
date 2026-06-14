@@ -8,7 +8,7 @@ body:
       value: |
         ## Before You Submit
         > ⚠️ **Wrong repo?** If your report is about a **site being incorrectly flagged
-        > or missing from the safe/unsafe list**, that data comes from the **FMHY Wiki** —
+        > or missing from the safe/unsafe list**, that data comes from the **Free Media Hub Wiki** —
         > please open your issue [there](https://github.com/fmhy/FMHY/issues) instead.
 
         Thank you for creating a bug report to help us improve!
@@ -44,7 +44,7 @@ body:
   - type: input
     id: fmhy-safeguard-version
     attributes:
-      label: FMHY SafeGuard Version
+      label: Free Media Hub SafeGuard Version
       description: Please provide the version of FixEmbed you are using, if current, just leave blank.
     validations:
       required: false

@@ -1,10 +1,10 @@
 {
   "extensionName": {
-    "message": "FMHY SafeGuard",
+    "message": "Free Media Hub SafeGuard",
     "description": "Name of the extension"
   },
   "extensionDescription": {
-    "message": "FMHYフィルターリストを使用したリアルタイムのウェブサイト安全性チェックでブラウジングを保護します。",
+    "message": "Free Media Hubフィルターリストを使用したリアルタイムのウェブサイト安全性チェックでブラウジングを保護します。",
     "description": "Description of the extension"
   },
   "checkingSiteStatus": {
@@ -16,8 +16,8 @@
     "description": "Label for unsafe site reason"
   },
   "fmhyNote": {
-    "message": "FMHYノート",
-    "description": "Label for FMHY notes section"
+    "message": "Free Media Hubノート",
+    "description": "Label for Free Media Hub notes section"
   },
   "thinkMistake": {
     "message": "間違いだと思いますか？",
@@ -32,7 +32,7 @@
     "description": "Footer text"
   },
   "fmhyFilterlist": {
-    "message": "FMHY Filterlist",
+    "message": "Free Media Hub Filterlist",
     "description": "Filterlist name"
   },
   "statusUnsafe": {
@@ -56,7 +56,7 @@
     }
   },
   "statusFmhy": {
-    "message": "$DOMAIN$ は<strong>FMHY</strong>関連のサイトです。安心して進んでください。",
+    "message": "$DOMAIN$ は<strong>Free Media Hub</strong>関連のサイトです。安心して進んでください。",
     "description": "FMHY site message",
     "placeholders": {
       "domain": {
@@ -106,7 +106,7 @@
     }
   },
   "warningPageTitle": {
-    "message": "FMHY SafeGuard - 警告",
+    "message": "Free Media Hub SafeGuard - 警告",
     "description": "Warning page title"
   },
   "warningText": {
@@ -126,7 +126,7 @@
     "description": "Proceed button text"
   },
   "settingsTitle": {
-    "message": "FMHY SafeGuard 設定",
+    "message": "Free Media Hub SafeGuard 設定",
     "description": "Settings page title"
   },
   "filterlistStatistics": {
@@ -274,7 +274,7 @@
     "description": "Auto-detect language option"
   },
   "welcomeTitle": {
-    "message": "FMHY SafeGuardへようこそ",
+    "message": "Free Media Hub SafeGuardへようこそ",
     "description": "Welcome page title"
   },
   "welcomeSubtitle": {
@@ -286,7 +286,7 @@
     "description": "Welcome step 1 title"
   },
   "welcomeStep1Desc": {
-    "message": "素早くアクセスするために、FMHY SafeGuardをブラウザのツールバーに固定してください：",
+    "message": "素早くアクセスするために、Free Media Hub SafeGuardをブラウザのツールバーに固定してください：",
     "description": "Welcome step 1 description"
   },
   "welcomeStep1Item1": {
@@ -294,7 +294,7 @@
     "description": "Welcome step 1 item 1"
   },
   "welcomeStep1Item2": {
-    "message": "リストから「FMHY SafeGuard」を見つける",
+    "message": "リストから「Free Media Hub SafeGuard」を見つける",
     "description": "Welcome step 1 item 2"
   },
   "welcomeStep1Item3": {
@@ -306,7 +306,7 @@
     "description": "Welcome step 2 title"
   },
   "welcomeStep2Desc": {
-    "message": "FMHY SafeGuardはセキュリティデータベースに対してウェブサイトを自動的にチェックします：",
+    "message": "Free Media Hub SafeGuardはセキュリティデータベースに対してウェブサイトを自動的にチェックします：",
     "description": "Welcome step 2 description"
   },
   "welcomeStep2Item1": {
@@ -322,7 +322,7 @@
     "description": "Welcome step 2 item 3"
   },
   "welcomeStep2Item4": {
-    "message": "マップされたサイトのFMHYウィキノートを表示",
+    "message": "マップされたサイトのFree Media Hubウィキノートを表示",
     "description": "Welcome step 2 item 4"
   },
   "welcomeStep2Item5": {

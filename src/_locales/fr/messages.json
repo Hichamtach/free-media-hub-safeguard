@@ -1,10 +1,10 @@
 {
   "extensionName": {
-    "message": "FMHY SafeGuard",
+    "message": "Free Media Hub SafeGuard",
     "description": "Name of the extension"
   },
   "extensionDescription": {
-    "message": "Protégez votre navigation avec des vérifications de sécurité des sites web en temps réel, alimentées par la liste de filtres FMHY.",
+    "message": "Protégez votre navigation avec des vérifications de sécurité des sites web en temps réel, alimentées par la liste de filtres Free Media Hub.",
     "description": "Description of the extension"
   },
   "checkingSiteStatus": {
@@ -16,8 +16,8 @@
     "description": "Label for unsafe site reason"
   },
   "fmhyNote": {
-    "message": "Note FMHY",
-    "description": "Label for FMHY notes section"
+    "message": "Note Free Media Hub",
+    "description": "Label for Free Media Hub notes section"
   },
   "thinkMistake": {
     "message": "Vous pensez que c'est une erreur ?",
@@ -32,7 +32,7 @@
     "description": "Footer text"
   },
   "fmhyFilterlist": {
-    "message": "FMHY Filterlist",
+    "message": "Free Media Hub Filterlist",
     "description": "Filterlist name"
   },
   "statusUnsafe": {
@@ -56,7 +56,7 @@
     }
   },
   "statusFmhy": {
-    "message": "$DOMAIN$ est un site lié à <strong>FMHY</strong>. Vous pouvez faire confiance.",
+    "message": "$DOMAIN$ est un site lié à <strong>Free Media Hub</strong>. Vous pouvez faire confiance.",
     "description": "FMHY site message",
     "placeholders": {
       "domain": {
@@ -106,7 +106,7 @@
     }
   },
   "warningPageTitle": {
-    "message": "FMHY SafeGuard - Avertissement",
+    "message": "Free Media Hub SafeGuard - Avertissement",
     "description": "Warning page title"
   },
   "warningText": {
@@ -126,7 +126,7 @@
     "description": "Proceed button text"
   },
   "settingsTitle": {
-    "message": "Paramètres FMHY SafeGuard",
+    "message": "Paramètres Free Media Hub SafeGuard",
     "description": "Settings page title"
   },
   "filterlistStatistics": {
@@ -274,7 +274,7 @@
     "description": "Auto-detect language option"
   },
   "welcomeTitle": {
-    "message": "Bienvenue sur FMHY SafeGuard",
+    "message": "Bienvenue sur Free Media Hub SafeGuard",
     "description": "Welcome page title"
   },
   "welcomeSubtitle": {
@@ -286,7 +286,7 @@
     "description": "Welcome step 1 title"
   },
   "welcomeStep1Desc": {
-    "message": "Pour un accès rapide, épinglez FMHY SafeGuard à la barre d'outils de votre navigateur :",
+    "message": "Pour un accès rapide, épinglez Free Media Hub SafeGuard à la barre d'outils de votre navigateur :",
     "description": "Welcome step 1 description"
   },
   "welcomeStep1Item1": {
@@ -294,7 +294,7 @@
     "description": "Welcome step 1 item 1"
   },
   "welcomeStep1Item2": {
-    "message": "Trouvez \"FMHY SafeGuard\" dans la liste",
+    "message": "Trouvez \"Free Media Hub SafeGuard\" dans la liste",
     "description": "Welcome step 1 item 2"
   },
   "welcomeStep1Item3": {
@@ -306,7 +306,7 @@
     "description": "Welcome step 2 title"
   },
   "welcomeStep2Desc": {
-    "message": "FMHY SafeGuard vérifie automatiquement les sites web dans notre base de données de sécurité :",
+    "message": "Free Media Hub SafeGuard vérifie automatiquement les sites web dans notre base de données de sécurité :",
     "description": "Welcome step 2 description"
   },
   "welcomeStep2Item1": {
@@ -322,7 +322,7 @@
     "description": "Welcome step 2 item 3"
   },
   "welcomeStep2Item4": {
-    "message": "Affiche les notes du wiki FMHY pour les sites mappés",
+    "message": "Affiche les notes du wiki Free Media Hub pour les sites mappés",
     "description": "Welcome step 2 item 4"
   },
   "welcomeStep2Item5": {

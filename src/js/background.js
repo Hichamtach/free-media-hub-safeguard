@@ -1,7 +1,7 @@
 // Cross-browser compatibility shim
 const browserAPI = typeof browser !== "undefined" ? browser : chrome;
 const contextMenuIdOpenFmhy = "open-fmhy-net";
-const fmhyWebsiteURL = "https://fmhy.net/";
+const fmhyWebsiteURL = "https://fmhy.net/"; // Keep external URL
 
 // Open welcome page on first install
 browserAPI.runtime.onInstalled.addListener((details) => {
@@ -28,7 +28,7 @@ function createExtensionContextMenu() {
   browserAPI.contextMenus.remove(contextMenuIdOpenFmhy, () => {
     browserAPI.contextMenus.create({
       id: contextMenuIdOpenFmhy,
-      title: "Open FMHY.net",
+      title: "Open Free Media Hub",
       contexts: ["action"]
     });
   });
@@ -76,7 +76,7 @@ const safeListURLs = [
   "https://raw.githubusercontent.com/fmhy/edit/refs/heads/main/docs/video.md",
 ];
 const fmhyFilterListURL =
-  "https://raw.githubusercontent.com/fmhy/FMHY-SafeGuard/refs/heads/main/fmhy-filterlist.txt";
+  "https://raw.githubusercontent.com/Hichamtach/free-media-hub-safeguard/refs/heads/main/free-media-hub-filterlist.txt";
 const unsafeReasonsURL =
   "https://raw.githubusercontent.com/fmhy/FMHYFilterlist/refs/heads/main/filterlists-reasons.json";
 const notesBaseURL =
@@ -88,7 +88,7 @@ let unsafeHostnamesRegex = null; // Domain-only regex for unsafe sites
 let potentiallyUnsafeSitesRegex = null;
 let potentiallyUnsafeHostnamesRegex = null; // Domain-only regex for potentially unsafe sites
 let fmhySitesRegex = null;
-let fmhyHostnamesRegex = null; // Domain-only regex for FMHY sites
+let fmhyHostnamesRegex = null; // Domain-only regex for Free Media Hub sites
 let safeSites = [];
 let starredSites = [];
 let unsafeReasons = {}; // Object to store reasons for unsafe sites
@@ -297,7 +297,7 @@ const searchEngines = [
   "seznam.cz",
 ];
 
-// Notes Mapping - Maps domains to their corresponding FMHY note slugs
+// Notes Mapping - Maps domains to their corresponding Free Media Hub note slugs
 const notesMapping = {
   // Torrent sites
   "1337x.to": "1337x-ranks", "1337x.st": "1337x-ranks", "1337x.is": "1337x-ranks",
@@ -854,8 +854,8 @@ function updatePageAction(status, tabId) {
       38: "../res/icons/starred_38.png",
     },
     fmhy: {
-      19: "../res/icons/fmhy_19.png",
-      38: "../res/icons/fmhy_38.png",
+      19: "../res/icons/starred_19.png",
+      38: "../res/icons/starred_38.png",
     },
     extension_page: {
       19: "../res/ext_icon_144.png",
@@ -1120,7 +1120,7 @@ browserAPI.runtime.onMessage.addListener((message, sender, sendResponse) => {
           console.log(`No match for full URL, trying domain: ${domain}`);
 
           // Check domain against regex patterns (use hostname-only regex for domain matching)
-          // Note: FMHY sites only match exact URLs, not domain-level
+          // Note: Free Media Hub sites only match exact URLs, not domain-level
           if (unsafeHostnamesRegex?.test(domain)) {
             status = "unsafe";
             matchedUrl = `https://${domain}`;
@@ -1310,7 +1310,7 @@ function getStatusFromLists(url) {
     if (base64DecodedLinks.some(link => url.startsWith(link) || link.startsWith(url))) return "safe";
 
     // Then check domain-level (use hostname-only regex for domain matching)
-    // Note: FMHY sites only match exact URLs, not domain-level
+    // Note: Free Media Hub sites only match exact URLs, not domain-level
     if (unsafeHostnamesRegex?.test(domain)) return "unsafe";
     if (potentiallyUnsafeHostnamesRegex?.test(domain)) return "potentially_unsafe";
 

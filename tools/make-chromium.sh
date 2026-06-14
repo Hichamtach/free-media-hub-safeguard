@@ -3,7 +3,7 @@
 set -e
 
 # Define build destination
-DES=dist/build/FMHY-SafeGuard.chromium
+DES=dist/build/Free-Media-Hub-SafeGuard.chromium
 rm -rf $DES
 mkdir -p $DES
 
@@ -12,5 +12,5 @@ cp -R platform/chromium/* $DES/
 
 # Create a versioned ZIP package
 pushd dist/build
-zip -r FMHY-SafeGuard_"$1".chromium.zip FMHY-SafeGuard.chromium
+zip -r Free-Media-Hub-SafeGuard_"$1".chromium.zip Free-Media-Hub-SafeGuard.chromium
 popd

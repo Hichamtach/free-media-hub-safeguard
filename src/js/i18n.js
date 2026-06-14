@@ -1,4 +1,4 @@
-// i18n helper for FMHY SafeGuard
+// i18n helper for Free Media Hub SafeGuard
 // This script handles internationalization for HTML pages
 
 (function() {

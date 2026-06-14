@@ -3,18 +3,18 @@
 ## v1.3.6 (03/26/2026)
 
 #### **🚀 New Features**
-- **`FMHY Backup Mirrors Support`**  
-    - Added support for FMHY backup mirrors, including `fmhy.vercel.app` and `fmhy.pages.dev`.
+- **`Free Media Hub Backup Mirrors Support`**  
+    - Added support for Free Media Hub backup mirrors, including `fmhy.vercel.app` and `fmhy.pages.dev`.
 - **`Kagi Search Link Highlighting`**  
-    - Added support for highlighting FMHY-related links in Kagi search results.
+    - Added support for highlighting Free Media Hub-related links in Kagi search results.
 - **`Extension Context Menu Shortcut to FMHY.net`**  
-    - Added a right-click browser action shortcut (`Open FMHY.net`) for quick access to the FMHY homepage.
+    - Added a right-click browser action shortcut (`Open Free Media Hub`) for quick access to the Free Media Hub homepage.
 
 #### **🐞 Bug Fixes**
 - **`Fixed Warning Page Redirect URL Handling`**  
     - Resolved warning page redirect issues caused by URL parameter mismatches.
-- **`Fixed FMHY Note Link Formatting in Popup`**  
-    - Corrected FMHY note link formatting in the popup for cleaner rendering.
+- **`Fixed Free Media Hub Note Link Formatting in Popup`**  
+    - Corrected Free Media Hub note link formatting in the popup for cleaner rendering.
 - **`Fixed Website Link Visibility in Dark Mode`**  
     - Updated docs site content-link styling so links no longer blend into dark theme backgrounds.  
     - Added clearer underline/focus treatment for better readability and accessibility.
@@ -26,7 +26,7 @@
 #### **🚀 New Features**
 - **`Domain Management`**  
     - Users can now add custom trusted/untrusted domains via Settings.  
-    - User-defined domains take highest priority over FMHY filterlists.  
+    - User-defined domains take highest priority over Free Media Hub filterlists.  
     - Domains in "Safe Domains" show green toolbar icon and skip warnings.  
     - Domains in "Unsafe Domains" show red toolbar icon and trigger warning page.  
     - Changes apply instantly without needing to reload the extension.  
@@ -44,9 +44,9 @@
     - Links stored as Base64 encoded in source code and decoded at runtime for obfuscation.  
 
 #### **🐞 Bug Fixes**
-- **`Fixed FMHY Sites Only Match Exact URLs`**  
-    - FMHY-related sites now only match exact URLs from the filterlist, not entire domains.  
-    - Fixes `rentry.co`, `reddit.com`, `bsky.app` incorrectly showing as "FMHY related".  
+- **`Fixed Free Media Hub Sites Only Match Exact URLs`**  
+    - Free Media Hub-related sites now only match exact URLs from the filterlist, not entire domains.  
+    - Fixes `rentry.co`, `reddit.com`, `bsky.app` incorrectly showing as "Free Media Hub related".  
     - Only specific URLs like `rentry.co/FMHY` or `reddit.com/r/FREEMEDIAHECKYEAH` will match.  
 
 ---
@@ -64,13 +64,13 @@
 #### **🐞 Bug Fixes**
 - **`Fixed Domain-Level Site Detection`**  
     - Sites in filterlists now correctly detected using domain-level matching.  
-    - Added hostname extraction for unsafe, potentially unsafe, and FMHY sites.  
+    - Added hostname extraction for unsafe, potentially unsafe, and Free Media Hub sites.  
     - Fixes sites showing incorrect status when URL path didn't match exactly.  
-- **`Fixed FMHY Note Image Rendering`**  
-    - Images in FMHY Notes now render properly instead of showing raw URLs.  
+- **`Fixed Free Media Hub Note Image Rendering`**  
+    - Images in Free Media Hub Notes now render properly instead of showing raw URLs.  
     - Both markdown and HTML image formats are supported.  
 - **`Fixed Subdomain Note Detection`**  
-    - FMHY Notes now correctly display on site subdomains (forum.mobilism.org, chat.pollinations.ai, m.twitch.tv, etc.).  
+    - Free Media Hub Notes now correctly display on site subdomains (forum.mobilism.org, chat.pollinations.ai, m.twitch.tv, etc.).  
     - Updated pattern matching for: 1337x, yts, audiobookbay, sanet, softarchive, mobilism, rgshows, twitch.tv, huggingface.co, pollinations.ai, 4pda.  
     - Added support for archive.is mirrors (archive.today, archive.ph, archive.fo, etc.).  
 
@@ -79,8 +79,8 @@
 ## v1.3.2 (01/25/2026)
 
 #### **🔧 Enhancements**
-- **`Clickable Links in FMHY Notes`**  
-    - Raw URLs in FMHY Notes are now automatically converted to clickable links.  
+- **`Clickable Links in Free Media Hub Notes`**  
+    - Raw URLs in Free Media Hub Notes are now automatically converted to clickable links.  
 
 ---
 
@@ -99,10 +99,10 @@
 ## v1.3.0 (01/25/2026)
 
 #### **🚀 New Features**
-- **`FMHY Notes Display`**  
-    - The extension popup now shows relevant notes from the FMHY wiki when visiting mapped websites.  
+- **`Free Media Hub Notes Display`**  
+    - The extension popup now shows relevant notes from the Free Media Hub wiki when visiting mapped websites.  
 - **`Live Note Fetching`**  
-    - Notes are fetched from the official FMHY GitHub repository and cached for performance.  
+    - Notes are fetched from the official Free Media Hub GitHub repository and cached for performance.  
 - **`Comprehensive Domain Mapping`**  
     - 80+ domain mappings included (1337x, mobilism, yts, spicetify, movie-web, audiobookbay, etc.).  
 - **`Pattern-Based Matching`**  
@@ -110,10 +110,10 @@
 - **`Markdown Rendering`**  
     - Notes are rendered with support for links, lists, bold, italic, and code formatting.  
 - **`AMOLED Theme`**  
-    - Added pure black AMOLED theme option for OLED displays, matching fmhy.net's theme options.  
+    - Added pure black AMOLED theme option for OLED displays, matching Free Media Hub's theme options.  
 - **`Unsafe Site Reasons`**  
     - Warning page and popup now display the reason why a site is flagged as unsafe.  
-    - Reasons are fetched from the FMHY Filterlist repository and include clickable evidence links.  
+    - Reasons are fetched from the Free Media Hub Filterlist repository and include clickable evidence links.  
 - **`Multi-Language Support (i18n)`**  
     - Added internationalization support for 7 languages: English, Spanish, Russian, German, Portuguese, French, and Japanese.  
     - All UI elements in popup, warning page, and settings page are now translatable.  
@@ -137,7 +137,7 @@
 - **`Updated Documentation Website`**  
     - Added Dark Reader support to prevent forced dark mode on docs site.  
     - Replaced emoji icons with Lucide SVG icons for consistent, professional look.  
-    - Added new feature cards for Unsafe Site Reasons and FMHY Notes.  
+    - Added new feature cards for Unsafe Site Reasons and Free Media Hub Notes.  
     - Improved mobile responsiveness with hamburger menu navigation.  
     - Fixed blurry rendering on mobile devices.  
 

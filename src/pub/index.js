@@ -61,7 +61,7 @@ document.addEventListener("DOMContentLoaded", async () => {
     const markdownLinks = [];
 
     let result = md
-      // Remove the main header (#### Title) since we show "FMHY Note" already
+      // Remove the main header (#### Title) since we show "Free Media Hub Note" already
       .replace(/^#{1,4}\s+.*$/gm, '')
       // Trim leading/trailing whitespace
       .trim();
@@ -386,7 +386,7 @@ document.addEventListener("DOMContentLoaded", async () => {
         message = getMessage("statusPotentiallyUnsafe", displayUrl) || `${displayUrl} is <strong>potentially unsafe</strong>. Proceed with caution.`;
         break;
       case "fmhy":
-        message = getMessage("statusFmhy", displayUrl) || `${displayUrl} is an <strong>FMHY</strong> related site. Proceed confidently.`;
+        message = getMessage("statusFmhy", displayUrl) || `${displayUrl} is a <strong>Free Media Hub</strong> related site. Proceed confidently.`;
         break;
       case "safe":
         message = getMessage("statusSafe", displayUrl) || `${displayUrl} is <strong>safe</strong> to browse.`;
@@ -406,7 +406,7 @@ document.addEventListener("DOMContentLoaded", async () => {
             "This is the <strong>Settings Page</strong> of the extension. Customize your preferences here.";
         } else if (displayUrl === welcomePageUrl) {
           message =
-            "Welcome to <strong>FMHY SafeGuard</strong>! Explore the extension's features and get started.";
+            "Welcome to <strong>Free Media Hub SafeGuard</strong>! Explore the extension's features and get started.";
         } else {
           message = "This is an <strong>extension page</strong>.";
         }

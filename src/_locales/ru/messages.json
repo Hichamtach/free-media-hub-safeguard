@@ -1,10 +1,10 @@
 {
   "extensionName": {
-    "message": "FMHY SafeGuard",
+    "message": "Free Media Hub SafeGuard",
     "description": "Name of the extension"
   },
   "extensionDescription": {
-    "message": "Защитите свой браузер с помощью проверки безопасности сайтов в реальном времени на основе списка фильтров FMHY.",
+    "message": "Защитите свой браузер с помощью проверки безопасности сайтов в реальном времени на основе списка фильтров Free Media Hub.",
     "description": "Description of the extension"
   },
   "checkingSiteStatus": {
@@ -16,8 +16,8 @@
     "description": "Label for unsafe site reason"
   },
   "fmhyNote": {
-    "message": "Заметка FMHY",
-    "description": "Label for FMHY notes section"
+    "message": "Заметка Free Media Hub",
+    "description": "Label for Free Media Hub notes section"
   },
   "thinkMistake": {
     "message": "Думаете, это ошибка?",
@@ -32,7 +32,7 @@
     "description": "Footer text"
   },
   "fmhyFilterlist": {
-    "message": "FMHY Filterlist",
+    "message": "Free Media Hub Filterlist",
     "description": "Filterlist name"
   },
   "statusUnsafe": {
@@ -56,7 +56,7 @@
     }
   },
   "statusFmhy": {
-    "message": "$DOMAIN$ — сайт, связанный с <strong>FMHY</strong>. Можете доверять.",
+    "message": "$DOMAIN$ — сайт, связанный с <strong>Free Media Hub</strong>. Можете доверять.",
     "description": "FMHY site message",
     "placeholders": {
       "domain": {
@@ -106,7 +106,7 @@
     }
   },
   "warningPageTitle": {
-    "message": "FMHY SafeGuard - Предупреждение",
+    "message": "Free Media Hub SafeGuard - Предупреждение",
     "description": "Warning page title"
   },
   "warningText": {
@@ -126,7 +126,7 @@
     "description": "Proceed button text"
   },
   "settingsTitle": {
-    "message": "Настройки FMHY SafeGuard",
+    "message": "Настройки Free Media Hub SafeGuard",
     "description": "Settings page title"
   },
   "filterlistStatistics": {
@@ -274,7 +274,7 @@
     "description": "Auto-detect language option"
   },
   "welcomeTitle": {
-    "message": "Добро пожаловать в FMHY SafeGuard",
+    "message": "Добро пожаловать в Free Media Hub SafeGuard",
     "description": "Welcome page title"
   },
   "welcomeSubtitle": {
@@ -286,7 +286,7 @@
     "description": "Welcome step 1 title"
   },
   "welcomeStep1Desc": {
-    "message": "Для быстрого доступа закрепите FMHY SafeGuard на панели инструментов браузера:",
+    "message": "Для быстрого доступа закрепите Free Media Hub SafeGuard на панели инструментов браузера:",
     "description": "Welcome step 1 description"
   },
   "welcomeStep1Item1": {
@@ -294,7 +294,7 @@
     "description": "Welcome step 1 item 1"
   },
   "welcomeStep1Item2": {
-    "message": "Найдите \"FMHY SafeGuard\" в списке",
+    "message": "Найдите \"Free Media Hub SafeGuard\" в списке",
     "description": "Welcome step 1 item 2"
   },
   "welcomeStep1Item3": {
@@ -306,7 +306,7 @@
     "description": "Welcome step 2 title"
   },
   "welcomeStep2Desc": {
-    "message": "FMHY SafeGuard автоматически проверяет сайты по нашей базе данных безопасности:",
+    "message": "Free Media Hub SafeGuard автоматически проверяет сайты по нашей базе данных безопасности:",
     "description": "Welcome step 2 description"
   },
   "welcomeStep2Item1": {
@@ -322,7 +322,7 @@
     "description": "Welcome step 2 item 3"
   },
   "welcomeStep2Item4": {
-    "message": "Показывает заметки из вики FMHY для сопоставленных сайтов",
+    "message": "Показывает заметки из вики Free Media Hub для сопоставленных сайтов",
     "description": "Welcome step 2 item 4"
   },
   "welcomeStep2Item5": {

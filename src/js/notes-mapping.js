@@ -1,4 +1,4 @@
-// Notes Mapping - Maps domains to their corresponding FMHY note slugs
+// Notes Mapping - Maps domains to their corresponding Free Media Hub note slugs
 // The slug is used to fetch: https://raw.githubusercontent.com/fmhy/edit/main/docs/.vitepress/notes/{slug}.md
 
 const notesMapping = {

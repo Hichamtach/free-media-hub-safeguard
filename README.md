@@ -10,11 +10,11 @@
     <img src="https://img.shields.io/github/license/fmhy/FMHY-SafeGuard" alt="GitHub License"></a>
 </div>
 <br>
-<h2> <div align="center"><b> Protect Your Browsing with FMHY SafeGuard: Easy Filterlist Integration. </b></div> </h2>
+<h2> <div align="center"><b> Protect Your Browsing with Free Media Hub SafeGuard: Easy Filterlist Integration. </b></div> </h2>
 
-# 🛡️ What is FMHY SafeGuard?
+# 🛡️ What is Free Media Hub SafeGuard?
 
-**FMHY SafeGuard** is a browser extension that keeps you safe by checking websites against the latest filterlists from [FMHY Filterlist](https://github.com/fmhy/FMHYFilterlist). The extension categorizes websites as starred, safe, unsafe, or potentially dangerous, giving you peace of mind while browsing.
+**Free Media Hub SafeGuard** is a browser extension that keeps you safe by checking websites against the latest filterlists from [Free Media Hub Filterlist](https://github.com/fmhy/FMHYFilterlist). The extension categorizes websites as starred, safe, unsafe, or potentially dangerous, giving you peace of mind while browsing.
 
 <p align="center">
   <img src="https://github.com/fmhy/FMHY-SafeGuard/blob/main/assets/header.png" style="width: 300px">
@@ -42,18 +42,18 @@
 ***
 
 <p align="center">
-  <a href="https://addons.mozilla.org/en-US/firefox/addon/fmhy-safeguard/"><img src="https://github.com/fmhy/FMHY-SafeGuard/blob/main/assets/firefox_addon_image.png" alt="Get FMHY SafeGuard for Firefox"></a>
-  <a href="https://chromewebstore.google.com/detail/fmhy-safeguard/ihcppnlmkfeclmehgdhjkglkbmiemnmp"><img src="https://github.com/fmhy/FMHY-SafeGuard/blob/main/assets/chrome_addon_image.png" alt="Get FMHY SafeGuard for Chrome"></a>
+  <a href="https://addons.mozilla.org/en-US/firefox/addon/fmhy-safeguard/"><img src="https://github.com/fmhy/FMHY-SafeGuard/blob/main/assets/firefox_addon_image.png" alt="Get Free Media Hub SafeGuard for Firefox"></a>
+  <a href="https://chromewebstore.google.com/detail/fmhy-safeguard/ihcppnlmkfeclmehgdhjkglkbmiemnmp"><img src="https://github.com/fmhy/FMHY-SafeGuard/blob/main/assets/chrome_addon_image.png" alt="Get Free Media Hub SafeGuard for Chrome"></a>
 </div>
 
 ***
 
 # 🌟 Key Features
 - **Real-time Site Status**: Instant feedback on whether a site is starred, safe, unsafe, or potentially unsafe, with visual toolbar icons.
-- **Updated Filterlists**: Utilizes the frequently updated FMHY filterlist to ensure protection from the latest unsafe domains.
+- **Updated Filterlists**: Utilizes the frequently updated Free Media Hub filterlist to ensure protection from the latest unsafe domains.
 - **Pop-up Alerts**: Get easy-to-read pop-ups that inform you about the site status and allow further action.
 - **Search Engine-Focused Highlighting**: Seamlessly highlights links on search engines with colors and icons, instantly showing if a site is safe, unsafe, or potentially dangerous.
-- **FMHY Notes**: View relevant notes from the FMHY wiki when visiting mapped websites with 80+ domain mappings.
+- **Free Media Hub Notes**: View relevant notes from the Free Media Hub wiki when visiting mapped websites with 80+ domain mappings.
 - **Unsafe Site Reasons**: See exactly why a site is flagged as unsafe with detailed reasons and clickable evidence links.
 - **Site Passwords & Invite Codes**: Automatically displays passwords or invite codes for sites that require them, with easy click-to-copy functionality.
 - **Multi-Language Support**: Available in 7 languages: English, Spanish, Russian, German, Portuguese, French, and Japanese.
@@ -61,19 +61,19 @@
 
 # 📋 Usage Instructions
 
-1. **Install the Extension**: Install FMHY SafeGuard from the [Releases Page](https://github.com/fmhy/FMHY-SafeGuard/releases) or the [Firefox page](https://addons.mozilla.org/en-US/firefox/addon/fmhy-safeguard/)/[Chrome Page](https://chromewebstore.google.com/detail/fmhy-safeguard/ihcppnlmkfeclmehgdhjkglkbmiemnmp).
+1. **Install the Extension**: Install Free Media Hub SafeGuard from the [Releases Page](https://github.com/fmhy/FMHY-SafeGuard/releases) or the [Firefox page](https://addons.mozilla.org/en-US/firefox/addon/fmhy-safeguard/)/[Chrome Page](https://chromewebstore.google.com/detail/fmhy-safeguard/ihcppnlmkfeclmehgdhjkglkbmiemnmp).
 2. **Browse Securely**: Visit any website and the toolbar icon will automatically update to reflect the site’s safety status (Starred, Safe, Unsafe, Potentially Unsafe).
 3. **View More Info**: Click the extension icon to open a popup with detailed site status information, including a link to contribute or report unknown sites (Coming soon!).
 
-# 🔒 Why Choose FMHY SafeGuard?
+# 🔒 Why Choose Free Media Hub SafeGuard?
 
-- **Up-to-date Protection**: Always uses the latest FMHY filterlist to block unsafe or malicious websites.
+- **Up-to-date Protection**: Always uses the latest Free Media Hub filterlist to block unsafe or malicious websites.
 - **Clean User Interface**: Simple, non-intrusive design to help you stay informed without cluttering your browsing experience.
 - **Free and Open Source**: Available on GitHub, fully customizable and open to community contributions.
 
 # 🚀 Get Started
 
-To start using FMHY SafeGuard, follow these steps:
+To start using Free Media Hub SafeGuard, follow these steps:
 1. Download the extension from the [Releases page](https://github.com/fmhy/FMHY-SafeGuard/releases) or the [Firefox page](https://addons.mozilla.org/en-US/firefox/addon/fmhy-safeguard/)/[Chrome Page](https://chromewebstore.google.com/detail/fmhy-safeguard/ihcppnlmkfeclmehgdhjkglkbmiemnmp).
 2. Install it into your browser and start browsing securely.
 3. Customize settings, such as theme, filtered site count, warning page toggles, and filter update frequency.
@@ -87,8 +87,8 @@ For questions or support, feel free to open an issue on [GitHub](https://github.
 - [Contribute on GitHub](https://github.com/fmhy/FMHY-SafeGuard/pulls)
 
 # 📜 Credits
-- [FMHY Filterlist](https://github.com/fmhy/FMHYFilterlist), the service used to detect unsafe/potentially unsafe sites, created by FMHY
-- [FMHY Bookmarks](https://github.com/fmhy/bookmarks), the service used to detect starred sites, created by FMHY
-- [FMHY Edit](https://github.com/fmhy/edit), the service used to detect safe sites, created by FMHY
-- [FMHY Related Sites/Projects List](https://github.com/fmhy/FMHY-SafeGuard/blob/main/fmhy-filterlist.txt), the service used to detect FMHY related sites/projects, created by FMHY
-- [Kenneth Hendricks](https://github.com/kenhendricks00), the original creator of the FMHY SafeGuard Extension
+- [Free Media Hub Filterlist](https://github.com/fmhy/FMHYFilterlist), the service used to detect unsafe/potentially unsafe sites, created by Free Media Hub
+- [FMHY Bookmarks](https://github.com/fmhy/bookmarks), the service used to detect starred sites, created by Free Media Hub
+- [FMHY Edit](https://github.com/fmhy/edit), the service used to detect safe sites, created by Free Media Hub
+- [Free Media Hub Related Sites/Projects List](https://github.com/fmhy/FMHY-SafeGuard/blob/main/free-media-hub-filterlist.txt), the service used to detect Free Media Hub related sites/projects, created by Free Media Hub
+- [Kenneth Hendricks](https://github.com/kenhendricks00), the original creator of the Free Media Hub SafeGuard Extension

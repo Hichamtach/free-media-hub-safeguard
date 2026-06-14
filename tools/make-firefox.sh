@@ -3,7 +3,7 @@
 set -e
 
 # Define build destination
-DES=dist/build/FMHY-SafeGuard.firefox
+DES=dist/build/Free-Media-Hub-SafeGuard.firefox
 rm -rf $DES
 mkdir -p $DES
 
@@ -12,5 +12,5 @@ cp -R platform/firefox/* $DES/
 
 # Create a versioned XPI package
 pushd dist/build
-zip -r FMHY-SafeGuard_"$1".firefox.xpi FMHY-SafeGuard.firefox
+zip -r Free-Media-Hub-SafeGuard_"$1".firefox.xpi Free-Media-Hub-SafeGuard.firefox
 popd

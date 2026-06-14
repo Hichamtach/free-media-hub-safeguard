@@ -1,4 +1,4 @@
-// FMHY SafeLink Guard - Content Script
+// Free Media Hub SafeLink Guard - Content Script
 // Implements visual marking of safe/unsafe links similar to the userscript
 
 "use strict";
@@ -79,7 +79,7 @@ const searchEngines = [
   "seznam.cz",
 ];
 
-// FMHY domains to exclude
+// Free Media Hub domains to exclude
 const fmhyDomains = [
   "fmhy.net",
   "fmhy.pages.dev",
@@ -113,16 +113,16 @@ function init() {
       setupObserver();
     })
     .catch((err) =>
-      console.error("[FMHY SafeGuard] Error initializing content script:", err)
+      console.error("[Free Media Hub SafeGuard] Error initializing content script:", err)
     );
 }
 
 // Check if current site is a search engine where we should apply highlighting
 function isSupportedSite(domain) {
-  // Don't highlight on FMHY sites
+  // Don't highlight on Free Media Hub sites
   if (fmhyDomains.some((fmhyDomain) => domain.endsWith(fmhyDomain))) {
     console.log(
-      `[FMHY SafeGuard] Skipping highlighting on FMHY domain: ${domain}`
+      `[Free Media Hub SafeGuard] Skipping highlighting on Free Media Hub domain: ${domain}`
     );
     return false;
   }
@@ -170,9 +170,9 @@ async function loadSettings() {
       userUntrusted = new Set(data.userUntrustedDomains);
     }
 
-    console.log("[FMHY SafeGuard] Settings loaded:", settings);
+    console.log("[Free Media Hub SafeGuard] Settings loaded:", settings);
   } catch (error) {
-    console.error("[FMHY SafeGuard] Error loading settings:", error);
+    console.error("[Free Media Hub SafeGuard] Error loading settings:", error);
   }
 }
 
@@ -205,10 +205,10 @@ async function loadDomainLists() {
     applyUserOverrides();
 
     console.log(
-      `[FMHY SafeGuard] Loaded ${unsafeDomains.size} unsafe domains and ${safeDomains.size} safe domains`
+      `[Free Media Hub SafeGuard] Loaded ${unsafeDomains.size} unsafe domains and ${safeDomains.size} safe domains`
     );
   } catch (error) {
-    console.error("[FMHY SafeGuard] Error loading domain lists:", error);
+    console.error("[Free Media Hub SafeGuard] Error loading domain lists:", error);
   }
 }
 
@@ -229,16 +229,16 @@ function applyUserOverrides() {
 function processPage() {
   const currentDomain = normalizeDomain(window.location.hostname);
 
-  // Only process links on search engines and not on FMHY sites
+  // Only process links on search engines and not on Free Media Hub sites
   if (!isSupportedSite(currentDomain)) {
     console.log(
-      `[FMHY SafeGuard] Skipping highlighting on non-search engine: ${currentDomain}`
+      `[Free Media Hub SafeGuard] Skipping highlighting on non-search engine: ${currentDomain}`
     );
     return;
   }
 
   console.log(
-    `[FMHY SafeGuard] Processing links on search engine: ${currentDomain}`
+    `[Free Media Hub SafeGuard] Processing links on search engine: ${currentDomain}`
   );
   document
     .querySelectorAll("a[href]")
@@ -310,7 +310,7 @@ function setupObserver() {
                 badge.className = 'fmhy-unsafe-badge';
                 const reason = getReasonForDomain(linkDomain);
                 const reasonText = reason ? `: ${reason}` : "";
-                badge.innerHTML = `<span style="display: inline-block; font-size: 14px;">⚠️</span> FMHY Unsafe Site${reasonText}`;
+                badge.innerHTML = `<span style="display: inline-block; font-size: 14px;">⚠️</span> Free Media Hub Unsafe Site${reasonText}`;
                 badge.dataset.domain = linkDomain;
                 siteDiv.appendChild(badge);
               }
@@ -342,7 +342,7 @@ function setupObserver() {
           if (node.nodeType === Node.ELEMENT_NODE) {
             if (node.classList &&
               (node.classList.contains('fmhy-badge-wrapper') ||
-                node.textContent && node.textContent.includes('FMHY Unsafe Site'))) {
+                node.textContent && node.textContent.includes('Free Media Hub Unsafe Site'))) {
               needsReprocess = true;
               break;
             }
@@ -451,7 +451,7 @@ function processLink(link, currentDomain) {
       }
     }
   } catch (error) {
-    console.warn("[FMHY SafeGuard] Error processing link:", error);
+    console.warn("[Free Media Hub SafeGuard] Error processing link:", error);
   }
 }
 
@@ -528,14 +528,14 @@ function addWarningBanner(link, reason = null) {
           const badge = document.createElement('span');
           badge.className = 'fmhy-unsafe-badge';
           const reasonText = reason ? `: ${reason}` : "";
-          badge.innerHTML = `<span style="display: inline-block; font-size: 14px;">⚠️</span> FMHY Unsafe Site${reasonText}`;
+          badge.innerHTML = `<span style="display: inline-block; font-size: 14px;">⚠️</span> Free Media Hub Unsafe Site${reasonText}`;
           siteDiv.appendChild(badge);
         }
       }
 
       return; // Exit early
     } catch (e) {
-      console.error("[FMHY SafeGuard] Error styling Brave Search link:", e);
+      console.error("[Free Media Hub SafeGuard] Error styling Brave Search link:", e);
     }
   }
 
@@ -558,7 +558,7 @@ function addWarningBanner(link, reason = null) {
 
   // Add the warning icon and text
   const reasonText = reason ? `: ${reason}` : "";
-  badge.innerHTML = `<span style="display: inline-block; font-size: 14px;">⚠️</span> FMHY Unsafe Site${reasonText}`;
+  badge.innerHTML = `<span style="display: inline-block; font-size: 14px;">⚠️</span> Free Media Hub Unsafe Site${reasonText}`;
 
   // Google-specific margin adjustment
   if (currentDomain.includes("google")) {
